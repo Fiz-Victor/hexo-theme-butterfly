@@ -1,0 +1,21 @@
+#rightMenu
+    .rightMenu-group.rightMenu-small
+        a.rightMenu-item(href="javascript:window.history.back();")
+            i.fas.fa-arrow-up
+        a.rightMenu-item(href="javascript:window.history.forward();")
+            i.fas.fa-arrow-right
+        a.rightMenu-item(href="javascript:window.location.reload();")
+            i.fas.fa-rotate-right
+        a.rightMenu-item(href="javascript:rmf.scrollToTop();")
+            i.fas.fa-arrow-up
+    .rightMenu-group.rightMenu-line.hide#menu-text
+        a.rightMenu-item(href="javascript:rmf.copySelect();")
+            i.fas.fa-copy
+            span='复制'
+    .rightMenu-group.rightMenu-line
+        a.rightMenu-item(href="javascript:rmf.switchDarkMode();")
+            i.fas.fa-moon
+            span='切换模式'
+        a.rightMenu-item(href="javascript:rmf.switchReadMode();")
+            i.fas.fa-book
+            span='阅读模式'
